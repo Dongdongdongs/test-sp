@@ -27,4 +27,22 @@ public class TtInfoServiceImpl implements TtInfoService {
 		return tidao.getTtInfo(tnum);
 	}
 
+	@Override
+	public int insertTtInfo(TtInfo ttif) {
+		// TODO Auto-generated method stub
+		return tidao.insertTtInfo(ttif);
+	}
+
+	@Override
+	public int updateTtInfo(TtInfo ttif) {
+		// TODO Auto-generated method stub
+		return tidao.updateTtInfo(ttif);
+	}
+
+	@Override
+	public int deleteTtInfo(TtInfo ttif) {
+		// TODO Auto-generated method stub
+		return tidao.deleteTtInfo(ttif);
+	}
+
 }

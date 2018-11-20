@@ -25,5 +25,22 @@ public class TtInfoDAOImpl implements TtInfoDAO {
 		// TODO Auto-generated method stub
 		return ss.selectOne("com.test.sp.TTINFO.selectTTINFOONE",tnum);
 	}
+
+	@Override
+	public int insertTtInfo(TtInfo ttif) {
+		return ss.insert("com.test.sp.TTINFO.insertTTINFO",ttif);
+	}
+
+	@Override
+	public int updateTtInfo(TtInfo ttif) {
+		// TODO Auto-generated method stub
+		return ss.update("com.test.sp.TTINFO.updateTTINFO",ttif);
+	}
+
+	@Override
+	public int deleteTtInfo(TtInfo ttif) {
+		// TODO Auto-generated method stub
+		return ss.delete("com.test.sp.TTINFO.deleteTTINFO",ttif);
+	}
    
 }
