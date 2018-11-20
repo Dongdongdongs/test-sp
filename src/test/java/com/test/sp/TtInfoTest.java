@@ -1,4 +1,4 @@
-package com.test.sp;
+/*package com.test.sp;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -28,3 +28,4 @@ public class TtInfoTest {
 			assertNotNull(tidao.getTtInfo(1));
 		}
 }
+*/

@@ -1,4 +1,4 @@
-package com.test.sp;
+/*package com.test.sp;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -19,13 +19,14 @@ public class TtInfoServiceTest {
 	@Autowired
 	private TtInfoService tis;
 	
-/*	@Test
+	@Test
 	public void listTest() {
 		assertEquals(3, tis.getTtInfoList().size());
-	}*/
+	}
 	
 	@Test
 	public void getTtInfo32() {
 		assertNotNull(tis.getTtInfo(2));
 	}
 }
+*/
